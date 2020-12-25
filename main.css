@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-title {
+  color: green;
+}
+
+.form-control:focus {
+  border-color: #849b84;
+  box-shadow: 0 0 15px rgba(204, 255, 204, 0.6);
+}
+
+.list-group li:nth-child(odd) {
+  background-color: #e6ffe6;
+}
+
+.list-group-item {
+  color: #333333;
+  font-size: 1.3rem;
+}
