@@ -42,3 +42,23 @@
 .delete-icon:hover {
   color: red;
 }
+
+/* Completed to do item */
+ul li .completed {
+  background-color: greenyellow;
+  text-decoration: line-through;
+}
+
+/* Check mark when clicked on */
+ul li .completed::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
