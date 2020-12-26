@@ -18,7 +18,7 @@
 }
 
 .list-group li:nth-child(odd):hover {
-  background-color: #f2f2f2;
+  background-color: #d9d9d9;
 }
 
 .list-group-item {
@@ -28,7 +28,7 @@
 }
 
 .list-group-item:hover {
-  background-color: #f2f2f2;
+  background-color: #d9d9d9;
 }
 
 .delete-icon {
