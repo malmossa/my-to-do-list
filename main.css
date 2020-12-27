@@ -44,7 +44,7 @@
 }
 
 /* Completed to do item */
-ul li .completed {
+.completed {
   background-color: greenyellow;
   text-decoration: line-through;
 }
