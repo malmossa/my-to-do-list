@@ -1,8 +1,10 @@
 const input = document.querySelector('.form-control');
 const btn = document.querySelector('.btn');
 const ul = document.querySelector('.list-group');
+const li = document.getElementsByTagName('li')
 
 btn.addEventListener('click', toDoItem);
+li.addEventListener('click', completedToDoItem);
 
 // Add a to do list item
 
@@ -12,7 +14,7 @@ function toDoItem () {
     alert('Please add a to do item')
   } else {
     const li = document.createElement('li');
-    li.className = 'list-group-item p-3';
+    li.classList.add('list-group-item', 'p-3');
     li.appendChild(document.createTextNode(input.value));
 
     const span = document.createElement('span');
@@ -25,4 +27,9 @@ function toDoItem () {
     ul.appendChild(li);
   }
   input.value = ''
+};
+
+
+function completedToDoItem () {
+  li.classList.add('completed')
 };
