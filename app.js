@@ -1,10 +1,10 @@
 const input = document.querySelector('.form-control');
 const btn = document.querySelector('.btn');
 const ul = document.querySelector('.list-group');
-const li = document.getElementsByTagName('li')
+
 
 btn.addEventListener('click', toDoItem);
-li.addEventListener('click', completedToDoItem);
+ul.addEventListener('click', completedToDoItem);
 
 // Add a to do list item
 
@@ -30,6 +30,8 @@ function toDoItem () {
 };
 
 
-function completedToDoItem () {
-  li.classList.add('completed')
+function completedToDoItem (e) {
+  if (e.target.tagName === 'LI') {
+    e.target.classList.toggle('completed');
+  }
 };
