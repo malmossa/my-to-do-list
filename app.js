@@ -1,7 +1,7 @@
 const input = document.querySelector('.form-control');
 const btn = document.querySelector('.btn');
 const ul = document.querySelector('.list-group');
-const span = document.querySelector('.delete-icon');
+const span = document.querySelector('.list-group');
 
 
 btn.addEventListener('click', toDoItem);
@@ -40,6 +40,8 @@ function completedToDoItem (e) {
 // Remove to do item
 function removeToDo (e) {
   if (e.target.tagName === 'SPAN') {
-    e.target.parentElement.remove();
+    if (confirm( "ARE YOU SURE ")) {
+      e.target.parentElement.remove();
+    }
   }
 };
