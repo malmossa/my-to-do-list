@@ -40,6 +40,22 @@ function completedToDoItem (e) {
 // Remove to do item
 function removeToDo (e) {
   if (e.target.tagName === 'SPAN') {
+
+    const modalDiv = document.createElement('div');
+    modalDiv.classList.add('modal', 'fade');
+
+    const modalDialog = document.createElement('div');
+    modalDialog.classList.add('modal-dialog');
+
+    const modalContent = document.createElement('div');
+    modalContent.classList.add('modal-content');
+
+    const modalBody = document.createElement('div');
+    modalBody.classList.add('modal-body');
+
+
+
+
     if (confirm( "ARE YOU SURE ")) {
       e.target.parentElement.remove();
     }
