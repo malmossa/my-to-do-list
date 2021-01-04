@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-Try the application live at [https://malmossa.github.io/know-the-world/](https://malmossa.github.io/my-to-do-list/)
+Try the application live at [https://malmossa.github.io/my-to-do-list](https://malmossa.github.io/my-to-do-list/)
 
 ## Features
 
