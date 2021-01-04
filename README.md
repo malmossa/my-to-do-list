@@ -1,5 +1,5 @@
-# api-hackathon (Know the world)
- A hackathon project utlizing the data from two public APIs to display countries information and location on google map. 
+# My To Do List 
+ A simple to do list project. 
  
 ## Technologies Used
 
@@ -10,12 +10,13 @@
 
 ## Live Demo
 
-Try the application live at [https://malmossa.github.io/know-the-world/](https://malmossa.github.io/know-the-world/)
+Try the application live at [https://malmossa.github.io/know-the-world/](https://malmossa.github.io/my-to-do-list/)
 
 ## Features
 
-- U.S is the default country once the page is loaded.
-- User can choose a country from the dropdown menu to get general informations and the locaction on map for that country. 
+- User can add a to do item.
+- User can mark a to do item as complete.
+- User can remove a to do item from the list.
 
 ## Preview
 
@@ -29,8 +30,8 @@ Try the application live at [https://malmossa.github.io/know-the-world/](https:/
 1. Clone the repository.
 
     ```shell
-    git clone https://github.com/malmossa/know-the-world.git
-    cd know-the-world
+    git clone https://github.com/malmossa/my-to-do-list.git
+    cd my-to-do-list
     ```
 
 2. Open index.html in your browser.
