@@ -20,7 +20,7 @@ Try the application live at [https://malmossa.github.io/know-the-world/](https:/
 
 ## Preview
 
-![screen shot of the app](img/know_the_world_screen_shot.gif)
+![screen shot of the My To Do List App](img/my-to-do-list-screen-shot.gif)
 
 ## Development
 
